@@ -1,0 +1,105 @@
+body{
+
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    text-align: center;
+    font-weight: 300;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+hr{
+    border-style: none;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 17rem;
+    margin: 50px auto;
+    padding: 20px 25px 20px;
+    border-radius: 5%;
+
+}
+
+
+/* First Description  */
+
+.description-1{
+    text-align: left;
+}
+.large-eth-image{
+    width: 17rem;
+    border-radius: 5%;
+}
+.large-eth-image:hover{
+    background-color: hsl(178, 100%, 50%);
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+/* Second Description  */
+
+.description-2{
+    padding: 8px 0px;
+    position: relative;
+}
+
+.span-color{
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    position: absolue;
+     
+}
+
+.days-left{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+
+
+/* Third Description  */
+
+.description-3{
+    padding: 10px 0px 5px;
+    text-align: left;
+}
+.creator-image{
+    width: 12%;
+    float: left;
+    margin-right: 20px;
+}
+
+.creator{
+    margin-top: -4px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
